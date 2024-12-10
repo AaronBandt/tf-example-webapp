@@ -40,3 +40,4 @@ output "lb_hostname" {
   description = "The LB DNS name."
   value       = aws_lb.web_lb.dns_name
 }
+
